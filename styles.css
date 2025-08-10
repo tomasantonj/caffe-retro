@@ -112,7 +112,7 @@ section {
 	background: rgba(0, 0, 0, 0.779);
     font-size: 1.2rem;
 	color: #fff;
-	padding: 1rem 3rem;
+	padding: 1rem 0.5rem;
 	max-width: 30rem;
 	width: 100%;
 }
@@ -135,7 +135,7 @@ section {
 }
 
 #cosy .box.top, #cosy .box.bottom {
-    background: rgba(116, 0, 114, 0.833);
+    background: rgba(116, 0, 114, 0.894);
     color: #120909;
 }
 
