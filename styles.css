@@ -29,11 +29,15 @@ nav a {
 	text-decoration: none;
 	color: #ef6d6d;
 	padding: 1.5rem 1rem;
-	transition: color 0.2s;
+ 	transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	transition-property: color, background-color;
+	transition-duration: 0.3s;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 nav a:hover {
 	color: #c00;
+	background-color: #0d0e1b;
 }
 
 /* Sections */
@@ -50,12 +54,11 @@ section {
 	min-height: 100vh;
 	height: 100vh;
 	box-sizing: border-box;
-	scroll-margin-top: 4.5rem; /* Relative to font size, approx header height */
+    padding-top: 10.5rem; /* Adjusted for visual balance */
+
 }
 #hot {
   background: url('assets/hot.jpg') center center/cover no-repeat;
-  padding-top: 12.5rem; /* Adjusted for visual balance */
-
 }
 #hot h2 {
   font-size: 5.5rem;
